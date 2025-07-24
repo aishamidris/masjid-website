@@ -58,7 +58,7 @@ footer {
   padding: 15px 10px;
   margin-top: 40px;
 }
-
+/*ABOUT PAGE*/
 /* Beautiful font (optional) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
@@ -112,4 +112,65 @@ body {
 
 .about-card ul li {
   margin-bottom: 8px;
+}
+
+/*REGISTRATION PAGE*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f9f8;
+  color: #333;
+}
+
+.registration-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h1 {
+  text-align: center;
+  color: #009688;
+  margin-bottom: 20px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #00796b;
 }
