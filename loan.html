@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emergency loan</title>
+</head>
+<body>
+    
+<div class="loan-page" id="message-box" >
+  <form id="loan-form" action="https://script.google.com/macros/s/YOUR_SCRIPT_URL/exec" method="POST">
+    <h2 class="form-title">Emergency Mini Loan Request</h2>
+
+    <fieldset>
+      <legend>Personal Information</legend>
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+    </fieldset>
+
+    <fieldset>
+      <legend>Loan Details</legend>
+      <input type="number" name="amount" placeholder="Amount Requested (₦)" required />
+      <textarea name="reason" placeholder="Reason for the Loan" rows="3" required></textarea>
+      <select name="repayment" required>
+        <option value="">Select Repayment Plan</option>
+        <option>1 month</option>
+        <option>2 months</option>
+        <option>3 months</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bank Account Info</legend>
+      <input type="text" name="account_name" placeholder="Account Name" required />
+      <input type="text" name="account_number" placeholder="Account Number" required />
+      <input type="text" name="bank_name" placeholder="Bank Name" required />
+    </fieldset>
+
+    <fieldset>
+      <legend>Authorization</legend>
+      <input type="password" name="pin" placeholder="Community PIN" required />
+    </fieldset>
+
+    <button type="submit">Submit Request</button>
+  </form>
+</div>
+
+</body>
+</html>

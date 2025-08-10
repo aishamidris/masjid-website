@@ -174,3 +174,102 @@ form button {
 form button:hover {
   background-color: #00796b;
 }
+
+/*loan page styles*/
+.loan-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef3f8;
+  padding: 40px 20px;
+}
+
+.loan-page form {
+  max-width: 650px;
+  margin: auto;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.loan-page .form-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #00796b;
+  font-weight: bold;
+}
+
+/* Fieldsets */
+.loan-page fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.loan-page legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #009688;
+  font-size: 16px;
+}
+
+/* Inputs */
+.loan-page input,
+.loan-page select,
+.loan-page textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.loan-page input:focus,
+.loan-page select:focus,
+.loan-page textarea:focus {
+  border-color: #00bfa6;
+  outline: none;
+}
+
+/* Submit Button */
+.loan-page button {
+  width: 100%;
+  padding: 14px;
+  background-color: #009688;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loan-page button:hover {
+  background-color: #00796b;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .loan-page form {
+    padding: 25px 20px;
+  }
+}
+#message-box.success {
+  background-color: #e0f6f0;
+  color: #00796b;
+  border: 1px solid #00bfa6;
+}
+
+#message-box.error {
+  background-color: #fdecea;
+  color: #b00020;
+  border: 1px solid #f44336;
+}
