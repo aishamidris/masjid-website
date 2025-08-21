@@ -22,9 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((res) => res.text())
         .then((text) => {
           if (text === "success") {
-            showMessage("✅ Registration successful!", "success");
-            regForm.reset();
-          } else if (text === "duplicate") {
+  alert("✅ Registration successful!");
+  window.location.href = "index.html"; // Go back to home
+}
+ else if (text === "duplicate") {
             showMessage("⚠️ You’ve already registered.", "error");
           } else {
             showMessage("⚠️ Something went wrong. Try again.", "error");

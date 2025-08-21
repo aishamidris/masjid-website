@@ -119,10 +119,17 @@ body {
 
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 50px;
+  padding: 50px;
   background-color: #f2f9f8;
   color: #333;
+
+}
+.registration-form{
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
 }
 
 .registration-container {
@@ -130,7 +137,7 @@ body {
   margin: 40px auto;
   padding: 30px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -174,6 +181,16 @@ form button {
 form button:hover {
   background-color: #00796b;
 }
+.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
 
 /*loan page styles*/
 .loan-page {
