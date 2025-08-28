@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const formData = new FormData(regForm);
 
-      fetch("https://script.google.com/macros/s/AKfycbyYNml_yiRciNlk4CmfDIEkV687IxEZydqNoTOL05lgIw2DD3h46MVNGEgO9lo660i-/exec", {
+      fetch("https://script.google.com/macros/s/AKfycbz8xKntflrMr4cAlBaogxEAgzdYaUIOjwSLbFdZeT8G79Qt_1ERNKHavzk1niKVyWDL/exec", {
         method: "POST",
         body: formData,
       })

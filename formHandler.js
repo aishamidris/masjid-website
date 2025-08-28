@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const REDIRECT_AFTER_MS  = 2000;
   const HOME_PAGE          = "index.html";
   const REGISTER_PAGE      = "register.html"; // used if we auto-redirect unregistered users
-  const REQUIRE_REG_BEFORE_VIEWING_LOAN = false; // set true to auto-redirect away from loan page
+  const REQUIRE_REG_BEFORE_VIEWING_LOAN = true; // set true to auto-redirect away from loan page
 
   // ====== Helpers ======
   const messageBox = document.getElementById("message-box");
