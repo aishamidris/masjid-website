@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
@@ -79,8 +79,16 @@ section {
   text-align: center;
 
 }
+h1, h2, h3 {
+  font-weight: 600; 
+  color: #06363f;   /* nice deep color for contrast */
+}
+p {
+  font-weight: 400; /* normal */
+  line-height: 1.8; /* better readability */
+}
+
 h2{
-  color: black;
   border: #555;
   border-radius: 10%;
   display: inline;
@@ -350,4 +358,52 @@ form button:hover {
   background-color: #fdecea;
   color: #b00020;
   border: 1px solid #f44336;
+}
+
+/* Tablet view */
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 24px;
+  }
+  nav a {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  .intro {
+    padding: 30px 15px;
+    font-size: 16px;
+    text-align: left; /* easier to read on smaller screens */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .intro {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  footer {
+    padding: 20px;
+    font-size: 14px;
+  }
 }
