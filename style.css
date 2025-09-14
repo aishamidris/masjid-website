@@ -43,6 +43,9 @@ body {
 .hero h1{
   margin: 0;
   padding: 0;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 span{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -79,7 +82,7 @@ section {
   text-align: center;
 
 }
-h1, h2, h3 {
+h2, h3 {
   font-weight: 600;
   color: #06363f;
   margin-bottom: 15px;
