@@ -33,12 +33,12 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  color: black;
+  color: white;
   padding: 0;
   margin-top: 0;
   margin-bottom: 30px;
   text-align: center;
-  background-color: #929aab;
+  background-color: #06363f;
 }
 .hero h1{
   margin: 0;
@@ -55,10 +55,10 @@ span{
   margin-top: 0;
   margin-bottom: 5px;
   padding: 5px 20px;
-  color: white;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
-  background-color: lightslategray;
+  background-color: #f4c542;
 }
 
 section {
@@ -70,9 +70,9 @@ section {
   margin-top: 50px;
   padding: 20px 20px;
   color: black;
-  background: rgba(210, 208, 254, 0.7);
-  border-top: 2px solid #333;
-  border-bottom: 2px solid #333;
+  background: rgba(185, 192, 213, 0.85);;
+  border-top: 2px solid #06363f;
+  border-bottom: 2px solid #06363f;
   border-radius: 5%;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -110,11 +110,12 @@ p{
 }
 
 .card {
-  background: rgba(210, 208, 254, 0.9);
+  background: #ffffff;
   padding: 20px;
   text-decoration: none;
-  color: #009688;
+  color: #06363f;
   border: 1px solid #ddd;
+  border-left: 5px solid #06363f;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: 0.3s;
@@ -123,12 +124,13 @@ p{
 
 .card:hover {
   background: #f4c542;
-  color: white;
+  color: black;
   transition: 0.3s;
 }
 
 footer {
   background: #b9c0d5;
+  color: #06363f;
   text-align: center;
   padding: 15px;
   margin: 0;
@@ -218,7 +220,7 @@ body {
 
 .registration-container h1 {
   text-align: center;
-  color: #009688;
+  color:  #06363f;
   margin-bottom: 20px;
 }
 
@@ -288,7 +290,7 @@ form button:hover {
   text-align: center;
   margin-bottom: 25px;
   font-size: 24px;
-  color: #00796b;
+  color:  #06363f;
   font-weight: bold;
 }
 
@@ -334,7 +336,7 @@ form button:hover {
 .loan-page button {
   width: 100%;
   padding: 14px;
-  background-color: #009688;
+  background-color:  #06363f;
   color: #fff;
   font-size: 17px;
   font-weight: bold;
@@ -345,7 +347,8 @@ form button:hover {
 }
 
 .loan-page button:hover {
-  background-color: #00796b;
+  background-color: #f4c542;
+  color: black;
 }
 
 /* Responsive */
@@ -395,9 +398,7 @@ form button:hover {
     gap: 10px;
     margin-top: 10px;
   }
-  p {
-    font-size: 14px; /* smaller text on phones */
-  }
+  
   nav a {
     font-size: 14px;
   }
