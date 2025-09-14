@@ -80,12 +80,16 @@ section {
 
 }
 h1, h2, h3 {
-  font-weight: 600; 
-  color: #06363f;   /* nice deep color for contrast */
+  font-weight: 600;
+  color: #06363f;
+  margin-bottom: 15px;
 }
+
 p {
-  font-weight: 400; /* normal */
-  line-height: 1.8; /* better readability */
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 h2{
@@ -116,9 +120,11 @@ p{
   transition: 0.3s;
 }
 
+
 .card:hover {
-  background: #009688;
+  background: #f4c542;
   color: white;
+  transition: 0.3s;
 }
 
 footer {
@@ -388,6 +394,9 @@ form button:hover {
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+  }
+  p {
+    font-size: 14px; /* smaller text on phones */
   }
   nav a {
     font-size: 14px;
