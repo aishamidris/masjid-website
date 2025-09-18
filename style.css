@@ -404,10 +404,12 @@ form button:hover {
   }
   .quick-links h2{
     font-size: 20px;
+    line-height: 10px;
   }
   .intro {
     padding: 20px;
     font-size: 15px;
+    line-height: 10px;
     margin-top: 50px; 
     text-align: center;
   }
@@ -425,3 +427,4 @@ form button:hover {
     font-size: 10px;
   }
 }
+
